@@ -6,8 +6,10 @@ one file
 By default every controller, directive, factory or service should be in a
 separate file.The file should start with angular setters.
 
-Don't assign angular to a variable.
-===================================
+Declare without using variables, use setter syntax.
+==================================================
+[Read rule: Defenitions (aka Setters)](https://github.com/johnpapa/angularjs-styleguide#style-y021)
+
 A basic example looks like this:
 <pre><code>
 angular

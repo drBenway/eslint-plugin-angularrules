@@ -1,0 +1,18 @@
+{
+  "name": "eslint-angular",
+  "version": "0.0.1",
+  "description": "custom Angular rules in eslint",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/drBenway/eslint-angular"
+  },
+  "author": "Yves Peeters",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/drBenway/eslint-angular/issues"
+  },
+  "homepage": "https://github.com/drBenway/eslint-angular",
+  "devDependencies": {
+    "eslint": "^0.9.0"
+  }
+}
