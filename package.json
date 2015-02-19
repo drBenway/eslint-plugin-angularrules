@@ -14,5 +14,13 @@
   "homepage": "https://github.com/drBenway/eslint-angular",
   "devDependencies": {
     "eslint": "^0.9.0"
-  }
+  },
+  "keywords": [
+    "eslint-plugin",
+    "eslintplugin",
+    "angular",
+    "angularjs",
+    "eslint",
+    "styleguide"
+  ]
 }
