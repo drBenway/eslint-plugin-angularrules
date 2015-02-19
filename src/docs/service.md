@@ -1,16 +1,16 @@
-Directive
+Service
 ==========
 
 syntax
 ------
-Directives should use named functions
+Services should use named functions & setter syntax
 [read more](https://github.com/johnpapa/angularjs-styleguide#style-y024)
 
 example
 
 angular
     .module('app')
-    .directive('myCtrl',myCtrl);
+    .service('myCtrl',myCtrl);
 function myCtrl(){
 
 }

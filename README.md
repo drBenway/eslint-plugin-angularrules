@@ -1,28 +1,13 @@
 [status]: (https://img.shield.io/badge/build-failed-red.svg)
 
 # eslint-angular
-Custom rules to enforce Angular best practices.
+Custom set of rules to enforce Angular best practices.
 
-one file
+Rules
 ========
-By default every controller, directive, factory or service should be in a
-separate file.The file should start with angular setters.
+You can find detailed information about all the rules in the docs folder.
+Most of the rules are based on the guidelines by [@john_papa](https://github.com/johnpapa/angularjs-styleguide)
 
-Declare without using variables, use setter syntax.
-==================================================
-[Read rule: Defenitions (aka Setters)](https://github.com/johnpapa/angularjs-styleguide#style-y021)
-
-A basic example looks like this:
-<pre><code>
-angular
-    .module('myapp')
-    .controller('myCtrl',myCtrl);
-
-function myCtrl(){
-    ...
-}
-</code></pre>
-The name of the controllers,directives,... should point to a named function that we define below.
 
 Attach to vm
 ============

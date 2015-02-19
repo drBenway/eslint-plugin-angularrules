@@ -3,7 +3,7 @@ Controller
 
 syntax
 ------
-Controllers should use named functions
+Controllers should use named functions & setter syntax
 [read more](https://github.com/johnpapa/angularjs-styleguide#style-y024)
 
 example
@@ -14,3 +14,5 @@ angular
 function myCtrl(){
 
 }
+
+The controllers,directives,... should point to a named function that we define below.
