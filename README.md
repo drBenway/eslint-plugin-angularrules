@@ -1,4 +1,4 @@
-(https://img.shields.io/badge/build-failed-red.png)
+![Buildstatus](https://img.shields.io/badge/build-failed-red.png)
 
 # eslint-angular
 Custom rules to enforce Angular best practices.
