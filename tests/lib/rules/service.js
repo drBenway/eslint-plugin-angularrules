@@ -1,3 +1,6 @@
+/**
+ * Created by westworld on 24/02/2015.
+ */
 "use strict";
 
 // --------------------------------
@@ -11,14 +14,14 @@ var eslint = require("../../../node_modules/eslint/lib/eslint"),
 // --------------------------------
 
 var eslintTester = new ESLintTester(eslint);
-eslintTester.addRuleTest("../../../src/lib/rules/controller.js", {
+eslintTester.addRuleTest("../../../src/lib/rules/service.js", {
     valid: [
-        "angular.module('myapp').controller('mycontroller',mycontroller);"
+        "angular.module('myapp').service('myservice',myservice);"
     ],
     invalid: [
         {
-            code: "angular.module('myapp').controller('mycontroller',myothercontroller);",
-            errors: [{message: "controller mycontroller should call a function with the same name, myothercontroller was used"}]
+            code: "angular.module('myapp').service('myservice',myotherservice);",
+            errors: [{message: "service myservice should call a function with the same name, myotherservice was used"}]
         }
     ]
 });

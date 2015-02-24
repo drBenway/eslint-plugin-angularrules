@@ -10,8 +10,6 @@
             "assign-scope-to-vm": require('src/lib/rules/assign-scope-to-vm.js'),
             "no-assignment-of-angular-to-var": require('./lib/rules/no-assignment-of-angular-to-var.js'),
             "no-deferred-controller-logic": require('./lib/rules/no-deferred-controller-logic.js')
-
-
         },
         rulesConfig: {
             "controller": 2,

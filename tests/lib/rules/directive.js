@@ -11,14 +11,14 @@ var eslint = require("../../../node_modules/eslint/lib/eslint"),
 // --------------------------------
 
 var eslintTester = new ESLintTester(eslint);
-eslintTester.addRuleTest("../../../src/lib/rules/controller.js", {
+eslintTester.addRuleTest("../../../src/lib/rules/directive.js", {
     valid: [
-        "angular.module('myapp').controller('mycontroller',mycontroller);"
+        "angular.module('myapp').directive('mydirective',mydirective);"
     ],
     invalid: [
         {
-            code: "angular.module('myapp').controller('mycontroller',myothercontroller);",
-            errors: [{message: "controller mycontroller should call a function with the same name, myothercontroller was used"}]
+            code: "angular.module('myapp').directive('mydirective',myotherdirective);",
+            errors: [{message: "directive mydirective should call a function with the same name, myotherdirective was used"}]
         }
     ]
 });

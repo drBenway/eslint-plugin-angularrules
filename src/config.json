@@ -1,0 +1,15 @@
+{
+  "globals": {
+    "angular": true
+  },
+  "rules": {
+    "controller": 2,
+    "directive": 2,
+    "factory": 2,
+    "service": 2,
+    "no-deferred-controller-logic": [
+      2,
+      ["$http"]
+    ]
+  }
+}

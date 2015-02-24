@@ -1,6 +1,6 @@
 module.exports = function(context){
     function report (node,name1){
-        context.report (node, 'You should\'nt assign Angular to variable{{var}}',{
+        context.report(node, 'You shouldnt assign Angular to variable{{var}}', {
             var: name1
         });
     }

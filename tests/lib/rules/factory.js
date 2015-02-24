@@ -11,14 +11,14 @@ var eslint = require("../../../node_modules/eslint/lib/eslint"),
 // --------------------------------
 
 var eslintTester = new ESLintTester(eslint);
-eslintTester.addRuleTest("../../../src/lib/rules/controller.js", {
+eslintTester.addRuleTest("../../../src/lib/rules/factory.js", {
     valid: [
-        "angular.module('myapp').controller('mycontroller',mycontroller);"
+        "angular.module('myapp').factory('myfactory',myfactory);"
     ],
     invalid: [
         {
-            code: "angular.module('myapp').controller('mycontroller',myothercontroller);",
-            errors: [{message: "controller mycontroller should call a function with the same name, myothercontroller was used"}]
+            code: "angular.module('myapp').factory('myfactory',myotherfactory);",
+            errors: [{message: "factory myfactory should call a function with the same name, myotherfactory was used"}]
         }
     ]
 });

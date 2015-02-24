@@ -8,12 +8,14 @@
   },
   "author": "Yves Peeters",
   "license": "MIT",
+  "main": "index.js",
   "bugs": {
     "url": "https://github.com/drBenway/eslint-angular/issues"
   },
   "homepage": "https://github.com/drBenway/eslint-angular",
   "devDependencies": {
-    "eslint": "^0.9.0"
+    "eslint": "^0.9.0",
+    "eslint-tester": "^0.6.0"
   },
   "keywords": [
     "eslint-plugin",
