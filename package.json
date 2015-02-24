@@ -1,5 +1,5 @@
 {
-  "name": "eslint-angular",
+  "name": "eslint-plugin-angularrules",
   "version": "0.0.1",
   "description": "custom Angular rules in eslint",
   "repository": {
